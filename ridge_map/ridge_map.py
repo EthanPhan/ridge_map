@@ -29,7 +29,7 @@ class FontManager:
 
     def __init__(
         self,
-        github_url="https://github.com/google/fonts/blob/main/ofl/cinzel/static/Cinzel-Regular.ttf?raw=true",  # pylint: disable=line-too-long
+        github_url="https://github.com/google/fonts/blob/main/ofl/cinzel/Cinzel[wght].ttf?raw=true",  # pylint: disable=line-too-long
     ):
         """
         Lazily download a font.
